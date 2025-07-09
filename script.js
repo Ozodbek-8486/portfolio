@@ -183,11 +183,11 @@ class ProjectsManager {
       },
       {
         id: 5,
-        title: "Portfolio Website Builder",
+        title: "Zoombot AI Portfolio",
         description:
-          "Drag-and-drop portfolio builder for developers and designers. Features customizable templates and one-click deployment.",
-        image: "",
-        techStack: ["Vue.js", "Express.js", "AWS S3", "Docker", "Sass"],
+          "This project is a personal AI project that I developed for my own personal GPT.",
+        image: "img/Zoombot.png",
+        techStack: ["HTML", "CSS", "JavaScript", "OpenAI API"],
         liveUrl: "#",
         githubUrl: "#",
       },
