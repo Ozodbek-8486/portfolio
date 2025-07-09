@@ -380,7 +380,7 @@ transition: color 0.3s ease;
 }
 
 .scroll-btn {
-  background: var(--bg-primary);
+  background: var(--text-tertiary);
   border: none;
   padding: 0.75rem;
   border-radius: 50%;

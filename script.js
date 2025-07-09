@@ -193,11 +193,11 @@ class ProjectsManager {
       },
       {
         id: 6,
-        title: "Data Visualization Dashboard",
+        title: "Education Admin-dashboard",
         description:
           "Interactive dashboard for data analysis with charts, filters, and real-time updates. Built with Python and React.",
         image: "",
-        techStack: ["Python", "React", "D3.js", "FastAPI", "PostgreSQL"],
+        techStack: ["TypeScript",  "JS", "FastAPI", "PostgreSQL"],
         liveUrl: "#",
         githubUrl: "#",
       },
