@@ -183,11 +183,11 @@ class ProjectsManager {
       },
       {
         id: 5,
-        title: "Zoombot AI Portfolio",
+        title: "Zomin AI Portfolio",
         description:
           "This project is a personal AI project that I developed for my own personal GPT.",
-        image: "img/Zoombot.png",
-        techStack: ["HTML", "CSS", "JavaScript", "OpenAI API"],
+        image: "img/zominai.png",
+        techStack: ["HTML", "CSS", "JavaScript", "TypeScript", "NodeJS", "Openai API"],
         liveUrl: "#",
         githubUrl: "#",
       },
@@ -196,8 +196,8 @@ class ProjectsManager {
         title: "Education Admin-dashboard",
         description:
           "Interactive dashboard for data analysis with charts, filters, and real-time updates. Built with Python and React.",
-        image: "",
-        techStack: ["TypeScript",  "JS", "FastAPI", "PostgreSQL"],
+        image: "img/admin-dashboard.png",
+        techStack: ["TypeScript",  "NodeJS", "FastAPI", "PostgreSQL"],
         liveUrl: "#",
         githubUrl: "#",
       },
