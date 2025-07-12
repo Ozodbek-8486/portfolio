@@ -188,18 +188,18 @@ class ProjectsManager {
           "This project is a personal AI project that I developed for my own personal GPT.",
         image: "img/zominai.png",
         techStack: ["HTML", "CSS", "JavaScript", "TypeScript", "NodeJS", "Openai API"],
-        liveUrl: "#",
-        githubUrl: "#",
+        liveUrl: "https://zominai.uz/",
+        githubUrl: "https://github.com/Xusanbek0039/zominai",
       },
       {
         id: 6,
-        title: "Education Admin-dashboard",
+        title: " Admin-dashboard",
         description:
-          "Interactive dashboard for data analysis with charts, filters, and real-time updates. Built with Python and React.",
+          "This project is designed for the Admin panel on websites. This project does not yet have a database.",
         image: "img/admin-dashboard.png",
         techStack: ["TypeScript",  "NodeJS", "FastAPI", "PostgreSQL"],
-        liveUrl: "#",
-        githubUrl: "#",
+        liveUrl: "https://github.com/Ozodbek-8486/Admin-Dasboard",
+        githubUrl: "https://github.com/Ozodbek-8486/Admin-Dasboard",
       },
     ]
     this.init()
