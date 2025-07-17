@@ -33,15 +33,3 @@ Sayt to‘liq responsiv, zamonaviy texnologiyalar asosida yaratilgan, va foydala
 
 ---
 
-## 🔧 Ishga tushirish
-
-```bash
-# Repozitoriyani klonlash
-git clone https://github.com/username/portfolio.git
-cd portfolio
-
-# Kerakli paketlarni o'rnatish
-npm install
-
-# Lokal serverda ishga tushirish
-npm run dev  # http://localhost:3000
