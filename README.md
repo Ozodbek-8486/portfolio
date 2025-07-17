@@ -10,9 +10,12 @@ Sayt to‘liq responsiv, zamonaviy texnologiyalar asosida yaratilgan, va foydala
 
 ## 🚀 Texnologiyalar
 
+## 🧰 Texnologiyalar
+
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,nextjs,tailwind,python,django,postgresql,mongodb,git,github,vscode,figma,canva,terminal" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,nodejs,python,django,mysql,postgresql,mongodb,git,github,vscode,figma,bash,canvas" alt="Tech Stack Icons" />
 </p>
+
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS  
 - **Backend**:  Python, Django  
