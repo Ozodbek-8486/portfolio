@@ -19,6 +19,19 @@ class ThemeManager {
   toggleTheme() {
     const newTheme = this.theme === "light" ? "dark" : "light"
     this.setTheme(newTheme)
+    // Update navbar background after theme change
+    this.updateNavbarBackground()
+  }
+
+  updateNavbarBackground() {
+    const navbar = document.getElementById("navbar")
+    if (!navbar) return
+    const scrollY = window.scrollY
+    if (scrollY > 50) {
+      navbar.style.background = this.theme === "dark" ? "rgba(17, 24, 39, 0.95)" : "rgba(255, 255, 255, 0.95)"
+    } else {
+      navbar.style.background = this.theme === "dark" ? "rgba(17, 24, 39, 0.8)" : "rgba(255, 255, 255, 0.8)"
+    }
   }
 
   bindEvents() {
@@ -99,18 +112,13 @@ class NavigationManager {
 
   handleScroll() {
     const scrollY = window.scrollY
+    const isDark = document.documentElement.getAttribute("data-theme") === "dark"
 
     // Navbar background
     if (scrollY > 50) {
-      this.navbar.style.background = "rgba(255, 255, 255, 0.95)"
-      if (document.documentElement.getAttribute("data-theme") === "dark") {
-        this.navbar.style.background = "rgba(17, 24, 39, 0.95)"
-      }
+      this.navbar.style.background = isDark ? "rgba(17, 24, 39, 0.95)" : "rgba(255, 255, 255, 0.95)"
     } else {
-      this.navbar.style.background = "rgba(255, 255, 255, 0.8)"
-      if (document.documentElement.getAttribute("data-theme") === "dark") {
-        this.navbar.style.background = "rgba(17, 24, 39, 0.8)"
-      }
+      this.navbar.style.background = isDark ? "rgba(17, 24, 39, 0.8)" : "rgba(255, 255, 255, 0.8)"
     }
 
     // Active navigation link

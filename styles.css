@@ -73,6 +73,7 @@ body {
   border-bottom: 1px solid var(--border-color);
   z-index: 1000;
   transition: all 0.3s ease;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .navbar {
