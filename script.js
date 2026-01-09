@@ -161,23 +161,23 @@ class ProjectsManager {
       },
       {
         id: 2,
-        title: "The Rotate Kub.",
+        title: "Education veb site.",
         description:
-          "This project is designed to create animated shapes",
-        image: "img/the-rotate-kub.png",
+          "This project is education veb site ",
+        image: "img/education-veb-site.png",
         techStack: ["HTML", "CSS", " JavaScript"],
-        liveUrl: "https://ozodbek-8486.github.io/Shape-animation/",
-        githubUrl: "https://github.com/Ozodbek-8486/Shape-animation",
+        liveUrl: "https://ozodbek-8486.github.io/Education/",
+        githubUrl: "https://github.com/Ozodbek-8486/Education",
       },
       {
         id: 3,
-        title: "3D animation",
+        title: "VIORA AI ",
         description:
-          "This site is a 3D-animated site, mainly created to maintain the beauty and modernity of the website.",
-        image: "img/3D-startub.png",
+          "This site is a VIORA-AI build veb site ",
+        image: "img/viora-ai.png",
         techStack: ["HTML", "CSS", "JavaScript"],
-        liveUrl: "https://ozodbek-8486.github.io/3D-STARTUP/",
-        githubUrl: "https://github.com/Ozodbek-8486/3D-STARTUP",
+        liveUrl: "https://ozodbek-8486.github.io/VIORA-AI/",
+        githubUrl: "https://github.com/Ozodbek-8486/VIORA-AI",
       },
       {
         id: 4,
